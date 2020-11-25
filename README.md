@@ -3,29 +3,32 @@
 [![Build Status](https://dev.azure.com/Hyperledger/Cello/_apis/build/status/hyperledger.cello?branchName=master)](https://dev.azure.com/Hyperledger/Cello/_build/latest?definitionId=27&branchName=master)
 
 Hyperledger Cello is a blockchain provision and operation system, which helps manage blockchain networks in an efficient way.
+超级账本Cello是一个区块链产品和操作系统，以一种有效的方式帮助管理区块链网络。
 
-1. [Introduction](#introduction)
-2. [Main Features](#main-features)
-3. [Quick Start](#quick-start)
-4. [Documentation](#documentation-getting-started-and-develop-guideline)
-5. [Why named cello?](#why-named-cello)
-6. [Notice](#incubation-notice)
+1. [Introduction](#introduction) 介绍
+2. [Main Features](#main-features) 主要特性
+3. [Quick Start](#quick-start) 快速开始
+4. [Documentation](#documentation-getting-started-and-develop-guideline) wendang 
+5. [Why named cello?](#why-named-cello) 问什么命名cello?
+6. [Notice](#incubation-notice) 注释
 
-## Introduction
+## Introduction 简介
 Using Cello, everyone can easily:
+使用Cello, 每个人都能够容易的:
 
-* Build up a Blockchain as a Service (BaaS) platform quickly from scratch.
-* Provision customizable Blockchains instantly, e.g., a Hyperledger fabric network v1.0.
-* Maintain a pool of running blockchain networks on top of baremetals, Virtual Clouds (e.g., virtual machines, vsphere Clouds), Container clusters (e.g., Docker, Swarm, Kubernetes).
-* Check the system status, adjust the chain numbers, scale resources... through dashboards.
+* Build up a Blockchain as a Service (BaaS) platform quickly from scratch. 构建区块链网络BaaS平台，快速的.
+* Provision customizable Blockchains instantly, e.g., a Hyperledger fabric network v1.0.  产品定制化区块链理解，比如，一个超级账本网络。
+* Maintain a pool of running blockchain networks on top of baremetals, Virtual Clouds (e.g., virtual machines, vsphere Clouds), Container clusters (e.g., Docker, Swarm, Kubernetes). 维持一个池运行区块两网络，虚拟网络（比如，虚拟机，vsphere云），容器集群. 
+* Check the system status, adjust the chain numbers, scale resources... through dashboards. 检查系统状态，调整链数据，伸缩资源... 通过仪表盘。
 
 A typical usage scenario is illustrated as:
+典型的应用方案:
 
 ![Typical Scenario](docs/images/scenario.png)
 
 ## Quick Start
 
-Environmental preparation:
+Environmental preparation: 环境预准备
 
 1. docker [how install](https://get.docker.com)
 2. docker-compose [how install](https://docs.docker.com/compose/install/)
@@ -34,7 +37,7 @@ Environmental preparation:
 
 If environment is prepared, then we can start cello service.
 
-* Build essential images for cello service (Optional, because currently the dockerhub image auto build haven't ready, in the future you can ignore this step.)
+* Build essential images for cello service (Optional, because currently the dockerhub image auto build haven't ready, in the future you can ignore this step.) 构建必要的镜像
 
 ```bash
 # make docker
